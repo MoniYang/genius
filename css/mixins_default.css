@@ -1,0 +1,222 @@
+/* scss default */
+.delete_btn, .orange_btn, .green_btn, .purple_btn, .aqua_btn, .gray_btn, .white_btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-transform: capitalize;
+  background-image: none;
+  border-radius: 4px;
+}
+
+.delete_btn:hover, .orange_btn:hover, .green_btn:hover, .purple_btn:hover, .aqua_btn:hover, .gray_btn:hover, .white_btn:hover, .delete_btn:focus, .orange_btn:focus, .green_btn:focus, .purple_btn:focus, .aqua_btn:focus, .gray_btn:focus, .white_btn:focus {
+  color: #333;
+  background-color: #e6e6e6;
+}
+
+.delete_btn {
+  color: #fff;
+  background-color: #FF4136;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.delete_btn:hover, .delete_btn:focus, .delete_btn:active, .delete_btn.active {
+  border: 0px solid #fff;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #FF4136;
+}
+
+@media only screen and (max-width: 991px) {
+  .delete_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.orange_btn {
+  color: #fff;
+  background-color: #FF851B;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.orange_btn:hover, .orange_btn:focus, .orange_btn:active, .orange_btn.active {
+  border: 0px solid #fff;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #FF851B;
+}
+
+@media only screen and (max-width: 991px) {
+  .orange_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.green_btn {
+  color: #fff;
+  background-color: #2ECC40;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.green_btn:hover, .green_btn:focus, .green_btn:active, .green_btn.active {
+  border: 0px solid #fff;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #2ECC40;
+}
+
+@media only screen and (max-width: 991px) {
+  .green_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.purple_btn {
+  color: #fff;
+  background-color: #5c32af;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.purple_btn:hover, .purple_btn:focus, .purple_btn:active, .purple_btn.active {
+  border: 0px solid #fff;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #5c32af;
+}
+
+@media only screen and (max-width: 991px) {
+  .purple_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.aqua_btn {
+  color: #fff;
+  background-color: #7FDBFF;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.aqua_btn:hover, .aqua_btn:focus, .aqua_btn:active, .aqua_btn.active {
+  border: 0px solid #fff;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #7FDBFF;
+}
+
+@media only screen and (max-width: 991px) {
+  .aqua_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.gray_btn {
+  color: #fff;
+  background-color: #aaa;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.gray_btn:hover, .gray_btn:focus, .gray_btn:active, .gray_btn.active {
+  border: 0px solid #fff;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #aaa;
+}
+
+@media only screen and (max-width: 991px) {
+  .gray_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.white_btn {
+  color: #242424;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.white_btn:hover, .white_btn:focus, .white_btn:active, .white_btn.active {
+  border: 0px solid #242424;
+  background-color: #242424;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .white_btn {
+    padding: 5px 5px !important;
+  }
+}
+
+.text-red {
+  color: #FF4136;
+}
+
+.text-orange {
+  color: #FF851B;
+}
+
+.text-green {
+  color: #2ECC40;
+}
+
+.text-purple {
+  color: #5c32af;
+}
+
+.text-aqua {
+  color: #7FDBFF;
+}
+
+.text-blue {
+  color: #2916b6;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+.text-deepgray {
+  color: #434343;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-yellow {
+  color: #f7b500;
+}
+
+.text-lime {
+  color: #01FF70;
+}
+
+.text-teal {
+  color: #39CCCC;
+}
+
+.text-theme {
+  color: #177fc4;
+}
+/*# sourceMappingURL=mixins_default.css.map */

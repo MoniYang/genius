@@ -19,8 +19,31 @@ body {
 	background-color: #fff;
 	font-family: Arial,微軟正黑體,新細明體;
 	color: #333;
-	line-height: 22px;
+	line-height: 1.5;
 	font-size: 13px;
+}
+u{
+    text-decoration: none;;
+}
+select{
+    @include select ($silver);
+    width:90%;
+    padding:5px;
+    border-radius: 5px;
+}
+input[type="checkbox" i] {
+    width:15px;
+    height:15px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size:font(1.3);
+
+}
+:hover{
+    text-decoration: none;
 }
 a {
 	color: #333;
@@ -95,6 +118,13 @@ img {
 	height: auto;
 	margin: 0 auto;
 }
+.small_title{
+    font-size:font(1.5);
+    font-weight: bold;
+    margin-bottom:15px;
+    color:$theme;
+    border-bottom:1px dotted $theme;
+}
 .Entrance{
     padding:20px 50px;
     display: flex;
@@ -117,15 +147,16 @@ img {
             }
             &:first-child{
                 a{
-                    background-color:#6bc2c1;
+                    background-color:#ff9b00;
                     color:$white;
+                    
                 }
                
             }
             &:last-child{
                 a{
-                    background-color:#177fc4;
-                    color:$white;
+                    background-color:#ff9b00;
+                    color:#2888c8;
                 }
                 
             }
@@ -135,6 +166,120 @@ img {
         font-size:font(3);
     }
 }
+.project{
+    width:100%;
+    &--table{
+        width:100%;
+        td,
+        th{
+            padding:5px;
+            // color:$theme;
+        }
+        th{
+            font-size:font(1.3);
+            background-color:$theme;
+            color:$white;
+            border-bottom:2px solid $silver;
+        }
+        td{
+           
+            font-size:font(1.2);
+            border-bottom:1px solid $silver;
+        }
+    }
+}
+.cartInfo{
+    width:100%;
+    float:left;
+    margin:20px 0;
+    display: flex;
+    &__box{
+        display: flex;
+        flex:1;
+    }
+    &__textList{
+        width:100%;
+        padding:0px;
+        margin:0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size:font(1.3);
+    }
+}
+.buyerInfo{
+    width:100%;
+    float:left;
+    margin:0px 0 20px;
+    display: flex;
+    &__box{
+        border:1px solid $silver;
+        padding:20px;
+        flex:1;
+        margin: 0 10px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        li{
+            &:first-child{
+                margin-left:0px;
+            }
+            &:last-child{
+                margin-right: 0px;
+            }
+        }
+    }
+    &__TextList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: left;
+        li{
+            text-align: left;
+            width:100%;
+            margin-bottom:5px;
+            font-size:font(1.2);
+            &.add{
+                display: flex;
+                flex-direction: row;
+                white-space: nowrap;
+                align-items:center;
+                select,
+                input{
+                    margin:0 5px;
+                }
+            }
+        }
+        input{
+            border-left:0px;
+            border-right:0px;
+            border-top:0px;
+            border-bottom:1px solid $silver;
+        }
+    }
+}
+.clearBtn{
+    @include button-bg(transparent, $theme, $theme ,$white);
+}
+ .back{
+     &__list{
+         display: flex;
+         flex-direction: row;
+         width:100%;
+         justify-content: center;
+         li{
+             margin:0 0px;
+             padding:0 10px;
+             border-right:1px solid $theme;
+             &:last-child{
+                 border-right:0px;
+             }
+         }
+     }
+ }
 #footer_all {
 	float: left;
 	width: 100%;

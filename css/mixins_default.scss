@@ -31,7 +31,7 @@ $silver:#ddd;
 $deep_gray : #6f6f6f;
 $gray : #aaa;
 $black :#242424;
-$theme: #3f3f3f;
+$theme:#177fc4;
 $marksix_theme:#ff7224;
 $purple_theme:#6543af;
 $marksix_blue:#0091ff;
@@ -282,8 +282,10 @@ $btn-config:(
 
 
 @mixin button-bg($bg, $text , $bg_2 , $text_2) {
+  padding:5px 8px;
   background: $bg;
   color: $text;
+  border:1px solid $bg_2;
   &:active, 
   &:focus, 
   &:hover {
@@ -446,17 +448,9 @@ $text-config:(
 		class: 'teal',
     color: $teal,
   ),
-  tiffany_blue:(
-		class: 'tiffany_blue',
-    color: $tiffany_blue,
-  ),
-  fourD:(
-		class: 'fourD',
-    color: $fourD_theme,
-  ),
-  fourDID:(
-		class: 'fourDID',
-    color: $fourDID_theme,
+  theme:(
+		class: 'theme',
+    color: $theme,
   ),
 );
 @mixin text ($color){
