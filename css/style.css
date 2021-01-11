@@ -6969,6 +6969,7 @@ img {
 }
 
 .clearBtn {
+  margin: 0 auto;
   padding: 5px 8px;
   background: transparent;
   color: #177fc4;
@@ -7003,6 +7004,7 @@ img {
   margin: 0px 0 10px;
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 .orderInfo li:first-child {
   margin-right: 20px;
@@ -7016,6 +7018,10 @@ img {
   border: 1px solid #ddd;
   margin: 30px 0;
   box-sizing: border-box;
+}
+.member__Login .clearBtn {
+  width: 100%;
+  margin: 0px;
 }
 .member__Login .small_title {
   display: flex;
@@ -7042,6 +7048,9 @@ img {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 20px;
+}
+.member__inputList label {
+  white-space: nowrap;
 }
 .member__inputList li {
   font-size: 16.8px;
@@ -7086,11 +7095,15 @@ img {
   flex: 1;
   justify-content: flex-start;
   align-items: flex-start;
-  border: 1px solid #ddd;
-  padding: 30px 20px 30px;
+}
+.member__SideNav .small_title {
+  text-align: left;
 }
 .member__SideNav ul {
   width: 100%;
+  border: 1px solid #ddd;
+  padding: 30px 20px 30px;
+  box-sizing: border-box;
 }
 .member__SideNav li {
   margin-bottom: 10px;
@@ -7108,6 +7121,13 @@ img {
 .member__content {
   display: flex;
   flex: 3;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.member__password {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #footer_all {

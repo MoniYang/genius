@@ -172,8 +172,8 @@
                     style="padding-bottom:2px;">
                     <tr>
                       <td width="3%" height="30" align="center">&nbsp;</td>
-                      <td width="23%" class="title">會員登入</td>
-                      <td width="72%" align="right" class="tile">::: <a href="index.html">首頁</a> >會員登入</td>
+                      <td width="23%" class="title">會員管理</td>
+                      <td width="72%" align="right" class="tile">::: <a href="index.html">首頁</a> > <a href="orderCheck.htm">會員管理</a> > 訂單查詢</td>
                       <td width="2%" align="left">&nbsp;</td>
                     </tr>
                   </table>
@@ -181,26 +181,118 @@
               </tr>
               <tr>
                 <td align="center" style="padding:10px 0 30px 0;">
-                  <div class="member__Login">
-                    <p class="small_title">會員登入</p>
-                    <ul class="member__inputList">
-                        <li> 
-                            <label>帳號:</label> <input type="text">
-                        </li>
-                        <li>
-                            <label>密碼:</label> <input type="text">
-                        </li>
-                        <li>
-                            <label>驗證碼:</label> <input type="text"> <img src="img/captcha.png" alt="">
-                        </li>
-                    </ul>
-                    <button class="clearBtn " onclick="location.href='orderCheck.htm'">登入</button>
-                    <ul class="member__btns">
-                      <li><a href="forget.htm">忘記密碼</a></li>
-                      <li><a href="register.htm">註冊會員</a></li>
-                    </ul>
-                </div>
-                 
+                    <div class="member__center">
+                        <div class="member__SideNav">
+                       
+                          <ul>
+                            <p class="small_title">會員管理</p>
+                            <li><a href="orderCheck.htm">訂單查詢</a></li>
+                            <li><a href="password.htm">修改密碼</a></li>
+                            <li><a href="index.html">登出</a></li>
+                          </ul>
+                        </div>
+                        <div class="member__content">
+                            <ul class="orderInfo">
+                                <li>訂單編號：<span class="text-theme">AG189067543</span></li>
+                                <li>訂購時間：<span class="text-theme">2018-06-30 14:00:00</span></li>
+                              </ul>
+                              <table class="project--table">
+                                <tbody><tr>
+                                  <th>我的專案</th>
+                                  <th>商品名稱</th>
+                                  <th>數量</th>
+                                  <th>價格</th>
+                                </tr>
+                                <tr>
+                                  <td>我的辨識系統</td>
+                                  <td>
+                                    柵欄機
+                                  </td>
+                                  <td align="center">1</td>
+                                  <td align="center"> NT35,000</td>
+                                </tr>
+                                <tr>
+                                  <td>出入攔停設備(柵欄機)</td>
+                                  <td>
+                                    柵欄機
+                                  </td>
+                                  <td align="center">1</td>
+                                  <td align="center">NT35,000</td>
+                                </tr>
+                                <tr>
+                                  <td>管理中心設備</td>
+                                  <td>
+                                    柵欄機
+                                  </td>
+                                  <td align="center">1</td>
+                                  <td align="center">NT35,000</td>
+                                </tr>
+                                <tr>
+                                  <td>加價購配件或折扣碼</td>
+                                  <td>
+                                    柵欄機
+                                  </td>
+                                  <td align="center">1</td>
+                                  <td align="center">NT35,000</td>
+                                </tr>
+            
+                                <tr>
+                                  <td>派工安裝或 DIY 安裝諮詢</td>
+                                  <td>
+                                    柵欄機
+                                  </td>
+                                  <td align="center">1</td>
+                                  <td align="center">NT35,000</td>
+                                </tr>
+                              </tbody></table>
+                              <div class="cartInfo">
+                                <div class="cartInfo__box" style="justify-content: center;">
+                                </div>
+                                <div class="cartInfo__box">
+                                  <ul class="cartInfo__textList">
+                                    <li>總計:<span class="text-theme">105,000</span></li>
+                                    <li>運費:<span class="text-theme">3,500</span></li>
+                                    <li>總金額:<span class="text-red">105,000</span></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="buyerInfo">
+                                  <ul class="buyerInfo__list">
+                                    <li class="buyerInfo__box">
+                                      <ul class="buyerInfo__TextList">
+                                        <p class="small_title">購買人資訊</p>
+                                        <li>購買人:&nbsp; XXX 社區管理委員會</li>
+                                        <li>聯絡電話:&nbsp;02-1234-5678</li>
+                                        <li>E-mail:&nbsp;XXX@yahoo.com.tw</li>
+                                        <li>統一編號:&nbsp;58697253</li>
+                                        <li class="add">
+                                            <span>發票地址:&nbsp;</span> XX 縣XX 市中⼭⻄街150 號
+                                            
+                                          </li>
+                                        </ul>
+                                    </li>
+                                    <li class="buyerInfo__box">
+                                      <ul class="buyerInfo__TextList">
+                                        <p class="small_title">購買人資訊 </p>
+                                        
+                                        <li>收貨人:&nbsp; XXX 社區管理委員會</li>
+                                        <li>聯絡電話:&nbsp;02-1234-5678</li>
+                                        <li>E-mail:&nbsp;XXX@yahoo.com.tw</li>
+                                        <li>收貨時間:10點 &nbsp;~ &nbsp;12點</li>
+                                        <li class="add">
+                                            <span>發票地址:&nbsp;</span> XX 縣XX 市中⼭⻄街150 號
+                                            
+                                          </li>
+                                      </ul>
+                                     
+                                    </li>
+                                  </ul>
+                              </div>
+                              <button class="clearBtn" onclick="location.href='orderCheck.htm'">
+                                關閉
+                              </button>
+                        </div>
+                      </div>
                 </td>
               </tr>
             </table>
