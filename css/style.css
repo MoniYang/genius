@@ -6836,10 +6836,6 @@ img {
   border-bottom: 1px dotted #177fc4;
 }
 
-label {
-  white-space: nowrap;
-}
-
 .Entrance {
   padding: 20px 50px;
   display: flex;
