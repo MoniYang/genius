@@ -72,6 +72,19 @@ $poolsBlue:#0099e5;
   background-image: linear-gradient(135deg, #0ccbef 0%, #091f59 48%);
 }
 
+@mixin input_style {
+  border-left:0px;
+  border-right:0px;
+  border-top:0px;
+  padding:5px 8px;
+  border-bottom:1px solid $silver;
+  &::placeholder{
+    font-size:font(1.5);
+    color:$gray;
+  }
+}
+
+
 //   size
 
 $baseSize: 12px;
@@ -97,16 +110,7 @@ $baseSize: 12px;
   float: left;
 
 }
-@mixin input_style {
-  border-radius: 7px;
-  box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.68);
-  border: solid 1px #3d3d3d;
-  background-color: #232323;
-  text-align: center;
-  padding:10px 0;
-//  font-size:font(1.5);
-  
-}
+
 @mixin info_topic {
   // width: 50%;
   // height: 45px;
@@ -363,7 +367,17 @@ $unit: 'px'; // Feel free to change the unit.
     $i: $i + $offset;
   }
 }
-
+@include list-loop('.mt-', 'margin-top') ;
+@include list-loop('.mr-', 'margin-right');
+@include list-loop('.mb-', 'margin-bottom');
+@include list-loop('.ml-', 'margin-left');
+@include list-loop('.m-', 'margin');
+// Paddings
+@include list-loop('.pt-', 'padding-top');
+@include list-loop('.pr-', 'padding-right');
+@include list-loop('.pb-', 'padding-bottom');
+@include list-loop('.pl-', 'padding-left');
+@include list-loop('.p-', 'padding');
 
 @mixin icon_style ($icon_color, $shadow_color) {
   color: $icon_color;
