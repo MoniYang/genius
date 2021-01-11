@@ -7090,6 +7090,7 @@ label {
   flex: 1;
   justify-content: flex-start;
   align-items: flex-start;
+  border: 1px solid #ddd;
   padding: 30px 20px 30px;
 }
 .member__SideNav ul {
@@ -7101,7 +7102,6 @@ label {
   text-align: left;
   width: 100%;
   padding: 0px 10px;
-  border-bottom: 2px solid #ddd;
 }
 .member__SideNav li a {
   width: 100%;

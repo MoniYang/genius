@@ -372,7 +372,7 @@ label{
 		flex:1;
 		justify-content: flex-start;
 		align-items: flex-start;
-		
+		border:1px solid $silver;
 		padding:30px 20px 30px;
 		ul{
 			width:100%;
@@ -383,7 +383,7 @@ label{
 			text-align: left;
 			width:100%;
 			padding:0px 10px;
-			border-bottom:2px solid $silver;
+			// border-bottom:2px solid $silver;
 			a{
 				width:100%;
 			}
