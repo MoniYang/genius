@@ -6881,13 +6881,13 @@ img {
   padding: 5px;
 }
 .project--table th {
-  font-size: 15.6px;
+  font-size: 18px;
   background-color: #177fc4;
   color: #fff;
   border-bottom: 2px solid #ddd;
 }
 .project--table td {
-  font-size: 14.4px;
+  font-size: 16.8px;
   border-bottom: 1px solid #ddd;
 }
 
