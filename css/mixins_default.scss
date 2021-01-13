@@ -87,7 +87,7 @@ $poolsBlue:#0099e5;
 
 //   size
 
-$baseSize: 12px;
+$baseSize: 13px;
 @function font($level: 1) {
   @return $baseSize *$level;
 }

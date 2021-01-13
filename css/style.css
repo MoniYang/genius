@@ -6714,7 +6714,7 @@ body {
   font-family: Arial, 微軟正黑體, 新細明體;
   color: #333;
   line-height: 1.5;
-  font-size: 13px;
+  font-size: 14.95px;
 }
 
 u {
@@ -6735,11 +6735,16 @@ input[type=checkbox i] {
   height: 15px;
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .checkbox {
   display: flex;
   flex-direction: row;
   text-align: left;
-  font-size: 13.2px;
+  font-size: 14.3px;
 }
 
 :hover {
@@ -6829,7 +6834,7 @@ img {
 }
 
 .small_title {
-  font-size: 18px;
+  font-size: 19.5px;
   font-weight: bold;
   margin-bottom: 15px;
   color: #177fc4;
@@ -6855,7 +6860,7 @@ img {
   display: flex;
 }
 .Entrance ul li a {
-  font-size: 36px;
+  font-size: 39px;
   padding: 20px;
 }
 .Entrance ul li:first-child a {
@@ -6867,7 +6872,7 @@ img {
   color: #2888c8;
 }
 .Entrance p {
-  font-size: 36px;
+  font-size: 39px;
 }
 
 .project {
@@ -6881,13 +6886,13 @@ img {
   padding: 5px;
 }
 .project--table th {
-  font-size: 18px;
+  font-size: 17.55px;
   background-color: #177fc4;
   color: #fff;
   border-bottom: 2px solid #ddd;
 }
 .project--table td {
-  font-size: 16.8px;
+  font-size: 16.25px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -6913,7 +6918,7 @@ img {
   flex: 1;
 }
 .cartInfo__box p {
-  font-size: 15.6px;
+  font-size: 16.9px;
 }
 .cartInfo__textList {
   width: 100%;
@@ -6923,7 +6928,7 @@ img {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  font-size: 15.6px;
+  font-size: 16.9px;
 }
 
 .buyerInfo {
@@ -6959,7 +6964,7 @@ img {
   text-align: left;
   width: 100%;
   margin-bottom: 5px;
-  font-size: 14.4px;
+  font-size: 15.6px;
 }
 .buyerInfo__TextList input {
   border-left: 0px;
@@ -6969,6 +6974,7 @@ img {
 }
 
 .clearBtn {
+  font-size: 15.6px;
   margin: 0 auto;
   padding: 5px 8px;
   background: transparent;
@@ -7026,7 +7032,7 @@ img {
 .member__Login .small_title {
   display: flex;
   margin: 0 auto 20px;
-  font-size: 21.6px;
+  font-size: 23.4px;
 }
 .member__Login textarea {
   border: 1px solid #ddd;
@@ -7039,7 +7045,7 @@ img {
   margin-bottom: 20px;
 }
 .member__AttText p {
-  font-size: 15.6px;
+  font-size: 16.9px;
   margin-bottom: 10px;
 }
 .member__inputList {
@@ -7053,7 +7059,7 @@ img {
   white-space: nowrap;
 }
 .member__inputList li {
-  font-size: 16.8px;
+  font-size: 18.2px;
   margin-bottom: 10px;
   font-family: "Montserrat", "Noto Sans TC", "Microsoft JhengHei", Arial, Helvetica, sans-serif;
   width: 100%;
@@ -7068,7 +7074,7 @@ img {
   width: 100%;
 }
 .member__inputList li input::placeholder {
-  font-size: 18px;
+  font-size: 19.5px;
   color: #aaa;
 }
 .member__inputList li img {
@@ -7107,7 +7113,7 @@ img {
 }
 .member__SideNav li {
   margin-bottom: 10px;
-  font-size: 15.6px;
+  font-size: 16.9px;
   text-align: left;
   width: 100%;
   padding: 0px 10px;

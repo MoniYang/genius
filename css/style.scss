@@ -20,7 +20,7 @@ body {
 	font-family: Arial,微軟正黑體,新細明體;
 	color: #333;
 	line-height: 1.5;
-	font-size: 13px;
+	font-size: font(1.15);
 }
 u{
     text-decoration: none;;
@@ -34,6 +34,10 @@ select{
 input[type="checkbox" i] {
     width:15px;
     height:15px;
+}
+.nav{
+	display: flex;
+	justify-content: flex-start;
 }
 .checkbox{
     display: flex;
@@ -179,14 +183,14 @@ label{
             // color:$theme;
         }
         th{
-            font-size:font(1.5);
+            font-size:font(1.35);
             background-color:$theme;
             color:$white;
             border-bottom:2px solid $silver;
         }
         td{
            
-            font-size:font(1.4);
+            font-size:font(1.25);
             border-bottom:1px solid $silver;
         }
     }
@@ -269,6 +273,7 @@ label{
     }
 }
 .clearBtn{
+	font-size:font(1.2);
     margin:0 auto;
     @include button-bg(transparent, $theme, $theme ,$white);
 }
