@@ -6728,11 +6728,13 @@ select {
   width: 90%;
   padding: 5px;
   border-radius: 5px;
+  font-size: 14.95px;
 }
 
 input[type=checkbox i] {
   width: 15px;
   height: 15px;
+  font-size: 14.95px;
 }
 
 .nav {
@@ -6971,6 +6973,7 @@ img {
   border-right: 0px;
   border-top: 0px;
   border-bottom: 1px solid #ddd;
+  font-size: 14.95px;
 }
 
 .clearBtn {

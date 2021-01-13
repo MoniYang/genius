@@ -29,11 +29,13 @@ select{
     @include select ($silver);
     width:90%;
     padding:5px;
-    border-radius: 5px;
+	border-radius: 5px;
+	font-size:font(1.15);
 }
 input[type="checkbox" i] {
     width:15px;
-    height:15px;
+	height:15px;
+	font-size:font(1.15);
 }
 .nav{
 	display: flex;
@@ -268,7 +270,8 @@ label{
             border-left:0px;
             border-right:0px;
             border-top:0px;
-            border-bottom:1px solid $silver;
+			border-bottom:1px solid $silver;
+			font-size:font(1.15);
         }
     }
 }
