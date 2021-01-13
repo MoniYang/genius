@@ -272,7 +272,12 @@ label{
             border-top:0px;
 			border-bottom:1px solid $silver;
 			font-size:font(1.15);
-        }
+		}
+		.checkbox{
+			label{
+				font-size:font(1.3);
+			}
+		}
     }
 }
 .clearBtn{

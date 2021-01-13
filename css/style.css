@@ -6975,6 +6975,9 @@ img {
   border-bottom: 1px solid #ddd;
   font-size: 14.95px;
 }
+.buyerInfo__TextList .checkbox label {
+  font-size: 16.9px;
+}
 
 .clearBtn {
   font-size: 15.6px;
