@@ -234,49 +234,77 @@ label{
     width:100%;
     float:left;
     margin:0px 0 20px;
-    display: flex;
+	display: flex;
+	.small_title{
+		float:left;
+	}
     &__box{
         border:1px solid $silver;
         padding:20px;
         flex:1;
-        margin: 0 10px;
+        // margin: 0 10px;
     }
     &__list{
         display: flex;
         flex-direction: row;
         width:100%;
         li{
+			width:50px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			margin-right:10px;
             &:first-child{
                 margin-left:0px;
             }
-            &:last-child{
-                margin-right: 0px;
-            }
+            
         }
     }
     &__TextList{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        text-align: left;
+		// display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width:100%;
         li{
             text-align: left;
             width:100%;
             margin-bottom:5px;
-            font-size:font(1.2);
-            
-        }
+			font-size:font(1.2);
+			flex-wrap: nowrap;
+			white-space: nowrap;
+			align-items: center;
+			&.long_input,
+			&:last-child{
+				margin-right: 0px;
+				width:100%;
+				input{
+					width: 100%;
+				}
+			}
+			&.shippingTime{
+				input{
+					max-width: 120px;
+				}
+			}
+		}
+		
         input{
             border-left:0px;
             border-right:0px;
             border-top:0px;
 			border-bottom:1px solid $silver;
 			font-size:font(1.15);
+		
 		}
+		
 		.checkbox{
 			label{
 				font-size:font(1.3);
 			}
+		}
+		input[type=checkbox i]{
+			width:20px!important;
+			height:20px;
 		}
     }
 }

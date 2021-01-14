@@ -6939,34 +6939,52 @@ img {
   margin: 0px 0 20px;
   display: flex;
 }
+.buyerInfo .small_title {
+  float: left;
+}
 .buyerInfo__box {
   border: 1px solid #ddd;
   padding: 20px;
   flex: 1;
-  margin: 0 10px;
 }
 .buyerInfo__list {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
+.buyerInfo__list li {
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
 .buyerInfo__list li:first-child {
   margin-left: 0px;
 }
-.buyerInfo__list li:last-child {
-  margin-right: 0px;
-}
 .buyerInfo__TextList {
-  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  text-align: left;
+  width: 100%;
 }
 .buyerInfo__TextList li {
   text-align: left;
   width: 100%;
   margin-bottom: 5px;
   font-size: 15.6px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  align-items: center;
+}
+.buyerInfo__TextList li.long_input, .buyerInfo__TextList li:last-child {
+  margin-right: 0px;
+  width: 100%;
+}
+.buyerInfo__TextList li.long_input input, .buyerInfo__TextList li:last-child input {
+  width: 100%;
+}
+.buyerInfo__TextList li.shippingTime input {
+  max-width: 120px;
 }
 .buyerInfo__TextList input {
   border-left: 0px;
@@ -6977,6 +6995,10 @@ img {
 }
 .buyerInfo__TextList .checkbox label {
   font-size: 16.9px;
+}
+.buyerInfo__TextList input[type=checkbox i] {
+  width: 20px !important;
+  height: 20px;
 }
 
 .clearBtn {
